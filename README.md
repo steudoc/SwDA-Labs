@@ -1,5 +1,8 @@
-# AY-25-26-labs
-Laboratories
+# Software Design and Architecture - Laboratories
+![Cover](./cover.jpeg)
+
+## Description
+Laboratories from the course "Software Design and Architecture"
 
 ## Documentation
 
