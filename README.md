@@ -1,8 +1,24 @@
-# Software Design and Architecture - Laboratories
+# Software Design and Architecture
 ![Cover](./cover.jpeg)
 
 ## Description
-Laboratories from the course "Software Design and Architecture"
+A comprehensive collection of architectural laboratories developed for the **Software Design and Architecture** course during my Master's Degree in Computer Engineering at **Politecnico di Torino**. This repository documents the end-to-end architectural journey of **MZinga**, transitioning from a legacy database-coupled monolithic system to a modern, decoupled, event-driven microservices architecture. The project emphasizes advanced migration strategies, full-stack observability, and cloud-native deployment models using Kubernetes.
+
+## Core Competencies & Architectural Patterns
+
+* **Architecture Evolution & Migration:** Applying the **Strangler Fig Pattern** to systematically decouple monolithic components (e.g., email communication flows) into independent services without system downtime.
+* **Message Brokering & Event-Driven Design:** Implementing asynchronous communication between microservices using **RabbitMQ** (exchanges, queues, vhosts) to ensure safe horizontal scaling and strict system decoupling.
+* **Cloud-Native Observability:** Instrumenting distributed workers with **OpenTelemetry** for distributed tracing and spans, **Prometheus** for metrics scraping, and `structlog` for structured logging.
+* **Advanced Kubernetes Deployments:** Containerizing applications with Docker and managing orchestration via **Kubernetes** and **Helm**. Implementation of complex zero-downtime deployment strategies including In-Place Rolling Updates, Blue-Green Deployments, and Canary Releases.
+* **Database Decoupling:** Transitioning from legacy database-coupled Python workers to REST APIs and event-driven consumers, managing state across **MongoDB** standalone instances and replica sets.
+
+## Tech Stack & Infrastructure
+
+* **Languages & APIs:** Python, REST
+* **Containerization & Orchestration:** Docker, Kubernetes (Minikube), Helm
+* **Infrastructure & Messaging:** RabbitMQ, MongoDB
+* **Observability & Monitoring:** OpenTelemetry, Prometheus
+* **Cluster Management UI:** K9s, OpenLens
 
 ## Documentation
 
